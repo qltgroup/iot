@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/room_card"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="15dp">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:background="#999fff"
+            android:layout_height="match_parent"
+            android:id="@+id/roomName"
+            android:textColor="#000000"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
